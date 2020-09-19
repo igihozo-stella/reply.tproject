@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    font-family:'Helvetica',sans-serif;
+  }
+  #main{
+     background-image:url('https://cdn.magdeleine.co/wp-content/uploads/2020/08/StockSnap_PCNKHBUQL4-1400x933.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  #menu{
+    width: 100%;
+    height: 100px;
+    background-color:lightgrey;
+  }
+  #inside{
+    width: 100%;
+    text-align:center;
+    padding-top: 30px;
+    
+  }
+  #inside a{
+    color:black;
+    padding: 10px 20px;
+     display:inline-block;
+     font-weight:bold;
+    text-decoration:none;
+    font-size: 17px;
+  }
+   a:hover{
+    background-color:white;
+    color:black;
+    font-weight: bold;
+  }
+  #title{
+    font-weight:bold;
+    font-size: 25px;
+  }
+  #home{
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 17px;
+  }
+  img{
+    width: 100px;
+    height: 100px;
+    float: right;
+  }
+  #services{
+    height: 300px;
+    display:flex;
+    flex-direction:column;
+    font-size: 20px;
+  }
+  footer{
+    background-color:#cce6ff;
+    color:black;
+    font-size: 15px;
+  }
+  
